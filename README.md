@@ -28,7 +28,9 @@ analysis.
 - Install the required Python libraries:
   ```bash
   pip install flask numpy pandas scikit-learn joblib
-Executing the program
+
+### Executing the program
+
 Activate your Python virtual environment.
 Navigate to the project directory and run the Flask application:
 bash
@@ -36,19 +38,22 @@ Copy code
 python app.py
 Access the application through your browser or API testing tool at 
 http://127.0.0.1:5000.
-How it Works
+
+### How it Works
+
 The application uses a trained Random Forest model to predict the 
 regenerative potential of a land plot based on input geospatial and 
 metagenomic data. The model's prediction gives an indication of the land 
 plot's health and its suitability for various regenerative practices.
 
-Contributing
+### Contributing
+
 Contributions, issues, and feature requests are welcome. Feel free to 
 check issues page if you want to contribute.
 
-Authors
+### Authors
 Ramon Sundblad
 
-Version History
+### Version History
 0.1
 Initial Release
